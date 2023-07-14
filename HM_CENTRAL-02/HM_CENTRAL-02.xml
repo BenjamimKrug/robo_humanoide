@@ -1,0 +1,2215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\benjamim\projetos-irl\Robo humanoide(PT-BR)\PCB principal\HM_CENTRAL-02\HM_CENTRAL-02.kicad_sch</source>
+    <date>7/11/2023 2:16:20 PM</date>
+    <tool>Eeschema 7.0.2</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>HM_CENTRAL-02.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>HM_CENTRAL-02_page2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/HM_CENTRAL-02_page3/" tstamps="/c3316fce-33b2-4446-af12-6fa639d06393/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>HM_CENTRAL-02_page3.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L9.0mm_W5.1mm_P7.50mm_MKT</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e65d3eec-0a86-4ce9-98fb-1def9a8daa04</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>354e9c51-fba5-434c-8e5d-50fac66eae18</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100uF</value>
+      <footprint>Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc3ecfb1-ee4b-4b14-9e4c-e8499c89fa13</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1800uF</value>
+      <footprint>Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc1f1bae-fad6-43c7-bb17-4cc6136c49a3</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>1800uF</value>
+      <footprint>Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff410465-bacb-4388-8b24-d865e92fad08</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>2200uF</value>
+      <footprint>Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46ab8dfe-24a3-4a10-9782-55a2a072384f</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100uF</value>
+      <footprint>Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>031a1938-528b-4654-9590-2cde54fdf1c4</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L9.0mm_W5.1mm_P7.50mm_MKT</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ceb8f8d-6541-4dc7-99f9-a686f4288df7</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L9.0mm_W5.1mm_P7.50mm_MKT</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8331819c-4eb8-4008-92cc-7a58e2d6d694</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>XT60PW-M</value>
+      <footprint>Ben_modules:AMASS_XT60PW-M</footprint>
+      <fields>
+        <field name="MANUFACTURER">AMASS</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">8.4 mm</field>
+        <field name="PARTREV">V1.2</field>
+        <field name="STANDARD">Manufacturer recommendations</field>
+      </fields>
+      <libsource lib="Ben_modules" part="XT60PW-M" description=""/>
+      <property name="MANUFACTURER" value="AMASS"/>
+      <property name="PARTREV" value="V1.2"/>
+      <property name="STANDARD" value="Manufacturer recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="8.4 mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ad5e3ee-c747-453e-8d7e-540fd49ea400</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_02x19_Odd_Even</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x19_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Alias">MAIN</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x19_Odd_Even" description="Generic connector, double row, 02x19, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Alias" value="MAIN"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x19, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d4e23a4-84e9-4210-b602-56760182b2c9</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_02x17_Odd_Even</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x17_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Alias">SUB1</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x17_Odd_Even" description="Generic connector, double row, 02x17, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Alias" value="SUB1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x17, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>506d9bd5-ffd7-4bb6-bd52-6b17cd1f8881</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_02x17_Odd_Even</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x17_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Alias">SUB2</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x17_Odd_Even" description="Generic connector, double row, 02x17, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Alias" value="SUB2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x17, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af63f678-69e7-48c4-8d2a-dcdc564eab7d</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BC337</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline_Wide</footprint>
+      <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC337" description="0.8A Ic, 45V Vce, NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <property name="ki_description" value="0.8A Ic, 45V Vce, NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63de2b5b-ac42-4ab4-a8a4-5f503a74cba5</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>IRFZ44N</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irf540n.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="IRF540N" description="33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <property name="ki_description" value="33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"/>
+      <property name="ki_keywords" value="HEXFET N-Channel MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b7321bd-cd49-4542-99ad-5e8b24160189</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>BC337</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline_Wide</footprint>
+      <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC337" description="0.8A Ic, 45V Vce, NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <property name="ki_description" value="0.8A Ic, 45V Vce, NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ecb1200-81b9-43d8-a43d-727fec686fb0</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>IRFZ44N</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irf540n.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="IRF540N" description="33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <property name="ki_description" value="33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"/>
+      <property name="ki_keywords" value="HEXFET N-Channel MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de7591e1-5f31-4898-9194-b7496afe6751</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>BC337</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline_Wide</footprint>
+      <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC337" description="0.8A Ic, 45V Vce, NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <property name="ki_description" value="0.8A Ic, 45V Vce, NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5aada113-b00e-4d6c-8b79-7451e51c67c8</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>IRFZ44N</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irf540n.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="IRF540N" description="33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <property name="ki_description" value="33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"/>
+      <property name="ki_keywords" value="HEXFET N-Channel MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45ae3ea6-f101-4e5a-8aa8-366e1d855167</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>BC337</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline_Wide</footprint>
+      <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC337" description="0.8A Ic, 45V Vce, NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <property name="ki_description" value="0.8A Ic, 45V Vce, NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc3604b9-659c-4ea2-a0b0-285aa80b51a0</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>IRFZ44N</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irf540n.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="IRF540N" description="33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <property name="ki_description" value="33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"/>
+      <property name="ki_keywords" value="HEXFET N-Channel MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d06867b-8786-43d0-b619-52c260170b16</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f9302c2-2a4e-4b1d-87de-0890cdcc3df3</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>33K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>439cb5dc-51c5-46a1-af42-f6293fa2b06a</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>330K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a0d585a-5e99-4b3a-ab16-d59a7669f4b7</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a61b026e-0d0c-41e0-a206-3920d722d05c</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>33K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a7043d9-f78d-43c2-b243-ae64f3eceef8</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>330K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9876b8ae-23c7-494b-b9ff-3642c65aa97d</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc2ff00a-deec-416c-9404-628879cb8c67</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>33K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55b6b8d3-a169-4a92-b4c4-9bb0a5d30c99</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>330K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed2d7bce-ec4d-49e6-8482-2ed490d1e814</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b406a91-129a-4fce-9153-45e3909fe72d</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>33K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58635e96-9b23-4ca7-822c-b339647a142e</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>330K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c3bcec0-215a-43e3-b4be-cc11659061a6</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ACS758xCB-050B-PFF</value>
+      <footprint>Sensor_Current:Allegro_CB_PFF</footprint>
+      <datasheet>http://www.allegromicro.com/~/media/Files/Datasheets/ACS758-Datasheet.ashx?la=en</datasheet>
+      <libsource lib="Sensor_Current" part="ACS758xCB-050B-PFF" description="±50A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 40mV/A, CB-5 PFF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <property name="ki_description" value="±50A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 40mV/A, CB-5 PFF"/>
+      <property name="ki_keywords" value="hall effect current monitor sensor isolated"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c1bc21b7-131c-4864-91c5-c3dd071a9445</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>AMS1117-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.advanced-monolithic.com/pdf/ds1117.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="AMS1117-3.3" description="1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <property name="ki_description" value="1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"/>
+      <property name="ki_keywords" value="linear regulator ldo fixed positive"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1bf1305e-9e47-4fd9-94c6-fa87a8f00394</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>GY-521</value>
+      <footprint>Ben_modules:GY-521</footprint>
+      <libsource lib="Ben_modules" part="GY-521" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HM_CENTRAL-02.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3be15cd-cf25-42aa-a7bf-c8c22d0aca8e</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>Motor_Servo_with_Pot</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>http://forums.parallax.com/uploads/attachments/46831/74481.png</datasheet>
+      <libsource lib="Ben_modules" part="Motor_Servo_with_Pot" description="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="ki_keywords" value="Servo Motor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>0e79435f-b013-4ff2-b8ad-9e9969d06e17</tstamps>
+    </comp>
+    <comp ref="M2">
+      <value>Motor_Servo_with_Pot</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>http://forums.parallax.com/uploads/attachments/46831/74481.png</datasheet>
+      <libsource lib="Ben_modules" part="Motor_Servo_with_Pot" description="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="ki_keywords" value="Servo Motor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>d16060ee-8d27-4b53-857b-2bcab6aced34</tstamps>
+    </comp>
+    <comp ref="M3">
+      <value>Motor_Servo_with_Pot</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>http://forums.parallax.com/uploads/attachments/46831/74481.png</datasheet>
+      <libsource lib="Ben_modules" part="Motor_Servo_with_Pot" description="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="ki_keywords" value="Servo Motor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>78dde553-e310-4350-b658-46d2ba6c16ef</tstamps>
+    </comp>
+    <comp ref="M4">
+      <value>Motor_Servo_with_Pot</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>http://forums.parallax.com/uploads/attachments/46831/74481.png</datasheet>
+      <libsource lib="Ben_modules" part="Motor_Servo_with_Pot" description="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="ki_keywords" value="Servo Motor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>ce2ccc64-007b-4210-8cb1-8ca17529c7e8</tstamps>
+    </comp>
+    <comp ref="M5">
+      <value>Motor_Servo_with_Pot</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>http://forums.parallax.com/uploads/attachments/46831/74481.png</datasheet>
+      <libsource lib="Ben_modules" part="Motor_Servo_with_Pot" description="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="ki_keywords" value="Servo Motor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>971d4a0b-85c7-43fe-a09b-56477f543a4e</tstamps>
+    </comp>
+    <comp ref="M6">
+      <value>Motor_Servo_with_Pot</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>http://forums.parallax.com/uploads/attachments/46831/74481.png</datasheet>
+      <libsource lib="Ben_modules" part="Motor_Servo_with_Pot" description="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="ki_keywords" value="Servo Motor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>19db9444-664d-43e1-9912-b18353ef61f7</tstamps>
+    </comp>
+    <comp ref="M7">
+      <value>Motor_Servo_with_Pot</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>http://forums.parallax.com/uploads/attachments/46831/74481.png</datasheet>
+      <libsource lib="Ben_modules" part="Motor_Servo_with_Pot" description="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="ki_keywords" value="Servo Motor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>c1c79273-0d36-4869-9b92-7a1485d0bfde</tstamps>
+    </comp>
+    <comp ref="M8">
+      <value>Motor_Servo_with_Pot</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>http://forums.parallax.com/uploads/attachments/46831/74481.png</datasheet>
+      <libsource lib="Ben_modules" part="Motor_Servo_with_Pot" description="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="ki_keywords" value="Servo Motor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>c2e795cc-8556-4aff-992b-9c34743ed881</tstamps>
+    </comp>
+    <comp ref="M9">
+      <value>Motor_Servo_with_Pot</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>http://forums.parallax.com/uploads/attachments/46831/74481.png</datasheet>
+      <libsource lib="Ben_modules" part="Motor_Servo_with_Pot" description="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="ki_keywords" value="Servo Motor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>4da28870-7c04-4de6-a40d-eae67cc59c7d</tstamps>
+    </comp>
+    <comp ref="M10">
+      <value>Motor_Servo_with_Pot</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>http://forums.parallax.com/uploads/attachments/46831/74481.png</datasheet>
+      <libsource lib="Ben_modules" part="Motor_Servo_with_Pot" description="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="ki_keywords" value="Servo Motor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>65161899-596d-4ba0-bcbb-f974439bfec7</tstamps>
+    </comp>
+    <comp ref="M11">
+      <value>Motor_Servo_with_Pot</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>http://forums.parallax.com/uploads/attachments/46831/74481.png</datasheet>
+      <libsource lib="Ben_modules" part="Motor_Servo_with_Pot" description="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="ki_keywords" value="Servo Motor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>bec5346f-6dc2-49ca-8735-c475a88731eb</tstamps>
+    </comp>
+    <comp ref="M12">
+      <value>Motor_Servo_with_Pot</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>http://forums.parallax.com/uploads/attachments/46831/74481.png</datasheet>
+      <libsource lib="Ben_modules" part="Motor_Servo_with_Pot" description="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="ki_keywords" value="Servo Motor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>9167821b-1a61-401b-b603-b868861b740e</tstamps>
+    </comp>
+    <comp ref="M13">
+      <value>Motor_Servo_with_Pot</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>http://forums.parallax.com/uploads/attachments/46831/74481.png</datasheet>
+      <libsource lib="Ben_modules" part="Motor_Servo_with_Pot" description="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="ki_keywords" value="Servo Motor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>243ae03e-bd55-41aa-9436-8ac149af6afa</tstamps>
+    </comp>
+    <comp ref="M14">
+      <value>Motor_Servo_with_Pot</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>http://forums.parallax.com/uploads/attachments/46831/74481.png</datasheet>
+      <libsource lib="Ben_modules" part="Motor_Servo_with_Pot" description="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="ki_keywords" value="Servo Motor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>c4eb47ec-76f5-45c8-ada8-fb02ff40cd1f</tstamps>
+    </comp>
+    <comp ref="M15">
+      <value>Motor_Servo_with_Pot</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>http://forums.parallax.com/uploads/attachments/46831/74481.png</datasheet>
+      <libsource lib="Ben_modules" part="Motor_Servo_with_Pot" description="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="ki_keywords" value="Servo Motor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>a9eb3d53-df41-42bb-8e0f-3c471f39dad9</tstamps>
+    </comp>
+    <comp ref="M16">
+      <value>Motor_Servo_with_Pot</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>http://forums.parallax.com/uploads/attachments/46831/74481.png</datasheet>
+      <libsource lib="Ben_modules" part="Motor_Servo_with_Pot" description="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="ki_keywords" value="Servo Motor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>7c1b0237-ecf1-4a2d-8ca3-6bb109dda1ad</tstamps>
+    </comp>
+    <comp ref="M17">
+      <value>Motor_Servo_with_Pot</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>http://forums.parallax.com/uploads/attachments/46831/74481.png</datasheet>
+      <libsource lib="Ben_modules" part="Motor_Servo_with_Pot" description="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="ki_keywords" value="Servo Motor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>97ac3927-1297-45d1-98e8-479475998f2b</tstamps>
+    </comp>
+    <comp ref="M18">
+      <value>Motor_Servo_with_Pot</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>http://forums.parallax.com/uploads/attachments/46831/74481.png</datasheet>
+      <libsource lib="Ben_modules" part="Motor_Servo_with_Pot" description="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="ki_keywords" value="Servo Motor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>e4b498e9-e739-430a-afde-f30971f8ecf9</tstamps>
+    </comp>
+    <comp ref="M19">
+      <value>Motor_Servo_with_Pot</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>http://forums.parallax.com/uploads/attachments/46831/74481.png</datasheet>
+      <libsource lib="Ben_modules" part="Motor_Servo_with_Pot" description="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="ki_keywords" value="Servo Motor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>57af844d-0ab6-4d23-aa73-760ca8420f14</tstamps>
+    </comp>
+    <comp ref="M20">
+      <value>Motor_Servo_with_Pot</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>http://forums.parallax.com/uploads/attachments/46831/74481.png</datasheet>
+      <libsource lib="Ben_modules" part="Motor_Servo_with_Pot" description="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="ki_keywords" value="Servo Motor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>95b9a9f3-f666-4fee-9e89-554c0c31cb59</tstamps>
+    </comp>
+    <comp ref="M21">
+      <value>Motor_Servo_with_Pot</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>http://forums.parallax.com/uploads/attachments/46831/74481.png</datasheet>
+      <libsource lib="Ben_modules" part="Motor_Servo_with_Pot" description="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="ki_keywords" value="Servo Motor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>f3ead9a7-36f5-46a3-bb19-d58310c33314</tstamps>
+    </comp>
+    <comp ref="M22">
+      <value>Motor_Servo_with_Pot</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>http://forums.parallax.com/uploads/attachments/46831/74481.png</datasheet>
+      <libsource lib="Ben_modules" part="Motor_Servo_with_Pot" description="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="ki_keywords" value="Servo Motor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>6ed54d14-f950-4da9-9cc9-b4eafa3cfb0f</tstamps>
+    </comp>
+    <comp ref="M23">
+      <value>Motor_Servo_with_Pot</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>http://forums.parallax.com/uploads/attachments/46831/74481.png</datasheet>
+      <libsource lib="Ben_modules" part="Motor_Servo_with_Pot" description="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="ki_keywords" value="Servo Motor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>cd91bcde-2b23-4262-83db-516ffc0d43e3</tstamps>
+    </comp>
+    <comp ref="RM1">
+      <value>Shunt_R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>05c091ed-349b-4b1e-857f-89cd77fab864</tstamps>
+    </comp>
+    <comp ref="RM2">
+      <value>Shunt_R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>6f692f2c-4f82-4555-b8d1-b249df4e2324</tstamps>
+    </comp>
+    <comp ref="RM3">
+      <value>Shunt_R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>578377a2-c8c7-4363-9743-95c95d3af3e2</tstamps>
+    </comp>
+    <comp ref="RM4">
+      <value>Shunt_R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>4b6e91ba-7f11-4c96-89a4-43b2c1438200</tstamps>
+    </comp>
+    <comp ref="RM5">
+      <value>Shunt_R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>fb2607fb-cb7c-4327-8d3a-0bfb731c3609</tstamps>
+    </comp>
+    <comp ref="RM6">
+      <value>Shunt_R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>db1eb424-3ff8-474c-bb36-15e3c1661949</tstamps>
+    </comp>
+    <comp ref="RM7">
+      <value>Shunt_R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>d5ed51d5-0b73-45aa-9189-32aaeaf8e8a2</tstamps>
+    </comp>
+    <comp ref="RM8">
+      <value>Shunt_R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>80407abc-a9af-4b16-8561-27a7f42429ac</tstamps>
+    </comp>
+    <comp ref="RM9">
+      <value>Shunt_R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>121e623d-09c7-4d18-a1a0-dff09396ea6a</tstamps>
+    </comp>
+    <comp ref="RM10">
+      <value>Shunt_R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>817b7225-826f-47b1-a04c-3c971524605f</tstamps>
+    </comp>
+    <comp ref="RM11">
+      <value>Shunt_R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>5be7c8c7-a012-46e7-b409-3cb78641de66</tstamps>
+    </comp>
+    <comp ref="RM12">
+      <value>Shunt_R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>c9caca4b-41fb-4f4d-bf5f-3f7bb84b54b9</tstamps>
+    </comp>
+    <comp ref="RM13">
+      <value>Shunt_R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>5ddf853b-abac-4605-b956-ff2d22f1a501</tstamps>
+    </comp>
+    <comp ref="RM14">
+      <value>Shunt_R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>1d0450db-8d31-4de4-a6b9-132fd09297a2</tstamps>
+    </comp>
+    <comp ref="RM15">
+      <value>Shunt_R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>58d0145a-1e49-4cbd-9388-edf84bf1cea1</tstamps>
+    </comp>
+    <comp ref="RM16">
+      <value>Shunt_R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>d6c7772f-ced3-4460-bb84-35b1bb89e115</tstamps>
+    </comp>
+    <comp ref="RM17">
+      <value>Shunt_R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>4103c4fb-3a43-4409-b862-34fdcbbfe322</tstamps>
+    </comp>
+    <comp ref="RM18">
+      <value>Shunt_R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>c61ee026-4bc3-4da8-947c-8cb8fda72cc2</tstamps>
+    </comp>
+    <comp ref="RM19">
+      <value>Shunt_R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>769bbe1b-8fc4-4aba-919f-7bb4ec41429b</tstamps>
+    </comp>
+    <comp ref="RM20">
+      <value>Shunt_R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>20d8613b-8b81-4f5c-b293-8ce93d2b470b</tstamps>
+    </comp>
+    <comp ref="RM21">
+      <value>Shunt_R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>1456bd30-796f-411f-8ca2-9752a8e066c3</tstamps>
+    </comp>
+    <comp ref="RM22">
+      <value>Shunt_R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>b45db388-524b-4a55-b1e7-86508999ef3e</tstamps>
+    </comp>
+    <comp ref="RM23">
+      <value>Shunt_R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page2"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/HM_CENTRAL-02_page2/" tstamps="/5da1f69a-97a6-440a-a0d9-01c8b0c02462/"/>
+      <tstamps>bf437ffc-da86-4042-af66-70fd37b17a62</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page3"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page3.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/HM_CENTRAL-02_page3/" tstamps="/c3316fce-33b2-4446-af12-6fa639d06393/"/>
+      <tstamps>93f39e47-fbcf-4aca-8efa-de12824e3c13</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page3"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page3.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/HM_CENTRAL-02_page3/" tstamps="/c3316fce-33b2-4446-af12-6fa639d06393/"/>
+      <tstamps>bd59e80e-a56c-4962-81fa-2fb349678d41</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page3"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page3.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/HM_CENTRAL-02_page3/" tstamps="/c3316fce-33b2-4446-af12-6fa639d06393/"/>
+      <tstamps>056399ba-3bf0-45a7-b06e-598d3a3c432a</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x03_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page3"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page3.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/HM_CENTRAL-02_page3/" tstamps="/c3316fce-33b2-4446-af12-6fa639d06393/"/>
+      <tstamps>06a84527-1db8-4b3d-825b-800aac988277</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x03_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page3"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page3.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/HM_CENTRAL-02_page3/" tstamps="/c3316fce-33b2-4446-af12-6fa639d06393/"/>
+      <tstamps>961d70e7-256f-47ce-a4d1-7575e3780fc0</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x02_Male</value>
+      <footprint>TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page3"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page3.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/HM_CENTRAL-02_page3/" tstamps="/c3316fce-33b2-4446-af12-6fa639d06393/"/>
+      <tstamps>57807cb0-059b-45bd-af53-7382d652f1cd</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page3"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page3.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/HM_CENTRAL-02_page3/" tstamps="/c3316fce-33b2-4446-af12-6fa639d06393/"/>
+      <tstamps>982ffe8b-ca41-41c8-9a47-591981f101ed</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page3"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page3.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/HM_CENTRAL-02_page3/" tstamps="/c3316fce-33b2-4446-af12-6fa639d06393/"/>
+      <tstamps>81c5b052-3b8b-4a20-8ed0-2ffee391c2f4</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page3"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page3.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/HM_CENTRAL-02_page3/" tstamps="/c3316fce-33b2-4446-af12-6fa639d06393/"/>
+      <tstamps>7a84233d-55a9-4ef0-8e80-3d6e00dd9bf4</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>Conn_01x06_Socket</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="ALIAS">ESP-CAM</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x06_Socket" description="Generic connector, single row, 01x06, script generated"/>
+      <property name="ALIAS" value="ESP-CAM"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page3"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page3.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/HM_CENTRAL-02_page3/" tstamps="/c3316fce-33b2-4446-af12-6fa639d06393/"/>
+      <tstamps>ae0e80b4-f93b-4750-aecf-cd9d55959434</tstamps>
+    </comp>
+    <comp ref="M24">
+      <value>Fan</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Motor" part="Fan" description="Fan"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page3"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page3.kicad_sch"/>
+      <property name="ki_description" value="Fan"/>
+      <property name="ki_keywords" value="Fan Motor"/>
+      <sheetpath names="/HM_CENTRAL-02_page3/" tstamps="/c3316fce-33b2-4446-af12-6fa639d06393/"/>
+      <tstamps>b4c0032e-c9d3-4aac-9fde-280a89456999</tstamps>
+    </comp>
+    <comp ref="M25">
+      <value>Fan</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Motor" part="Fan" description="Fan"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page3"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page3.kicad_sch"/>
+      <property name="ki_description" value="Fan"/>
+      <property name="ki_keywords" value="Fan Motor"/>
+      <sheetpath names="/HM_CENTRAL-02_page3/" tstamps="/c3316fce-33b2-4446-af12-6fa639d06393/"/>
+      <tstamps>533f8bda-85ff-4e90-9cea-a0e3e09b69f6</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>0R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page3"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/HM_CENTRAL-02_page3/" tstamps="/c3316fce-33b2-4446-af12-6fa639d06393/"/>
+      <tstamps>d4bc6f2e-0fc8-488f-8d0c-731717a6f76e</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>0R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page3"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/HM_CENTRAL-02_page3/" tstamps="/c3316fce-33b2-4446-af12-6fa639d06393/"/>
+      <tstamps>4797af13-cd4f-4942-96fe-c7ab26611672</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>0R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page3"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/HM_CENTRAL-02_page3/" tstamps="/c3316fce-33b2-4446-af12-6fa639d06393/"/>
+      <tstamps>45904178-bf66-4571-8014-cd8ebf0640ce</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>0R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page3"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/HM_CENTRAL-02_page3/" tstamps="/c3316fce-33b2-4446-af12-6fa639d06393/"/>
+      <tstamps>3acfe299-7c84-4ccb-9729-4c6c7b15347e</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>0R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page3"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/HM_CENTRAL-02_page3/" tstamps="/c3316fce-33b2-4446-af12-6fa639d06393/"/>
+      <tstamps>b14e7c7d-9490-47aa-ab29-794290ef7bae</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>4k7</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page3"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/HM_CENTRAL-02_page3/" tstamps="/c3316fce-33b2-4446-af12-6fa639d06393/"/>
+      <tstamps>6d206214-4e79-4ebf-bdc5-f9f3b3d9b9bf</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>4k7</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="HM_CENTRAL-02_page3"/>
+      <property name="Sheetfile" value="HM_CENTRAL-02_page3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/HM_CENTRAL-02_page3/" tstamps="/c3316fce-33b2-4446-af12-6fa639d06393/"/>
+      <tstamps>4611c414-6d8e-4f9e-b6cd-1e5a111eccba</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Ben_modules" part="GY-521">
+      <footprints>
+        <fp>*GY-521*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">GY-521</field>
+        <field name="Footprint">Ben_modules:GY-521</field>
+      </fields>
+      <pins>
+        <pin num="ADO" name="ADO" type="bidirectional"/>
+        <pin num="GND" name="GND" type="bidirectional"/>
+        <pin num="INT" name="INT" type="bidirectional"/>
+        <pin num="SCL" name="SCL" type="bidirectional"/>
+        <pin num="SDA" name="SDA" type="bidirectional"/>
+        <pin num="VCC" name="VCC" type="bidirectional"/>
+        <pin num="XCL" name="XCL" type="bidirectional"/>
+        <pin num="XDA" name="XDA" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Ben_modules" part="Motor_Servo_with_Pot">
+      <description>Servo Motor (Futaba, HiTec, JR connector)</description>
+      <docs>http://forums.parallax.com/uploads/attachments/46831/74481.png</docs>
+      <footprints>
+        <fp>PinHeader*P2.54mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Motor_Servo_with_Pot</field>
+        <field name="Datasheet">http://forums.parallax.com/uploads/attachments/46831/74481.png</field>
+      </fields>
+      <pins>
+        <pin num="1" name="POT" type="passive"/>
+        <pin num="2" name="PWM" type="passive"/>
+        <pin num="3" name="+" type="passive"/>
+        <pin num="4" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Ben_modules" part="XT60PW-M">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">XT60PW-M</field>
+        <field name="Footprint">Ben_modules:AMASS_XT60PW-M</field>
+        <field name="MANUFACTURER">AMASS</field>
+        <field name="PARTREV">V1.2</field>
+        <field name="STANDARD">Manufacturer recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">8.4 mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Socket">
+      <description>Generic connector, single row, 01x06, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x17_Odd_Even">
+      <description>Generic connector, double row, 02x17, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x17_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x19_Odd_Even">
+      <description>Generic connector, double row, 02x19, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x19_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+        <pin num="37" name="Pin_37" type="passive"/>
+        <pin num="38" name="Pin_38" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Motor" part="Fan">
+      <description>Fan</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>PinHeader*P2.54mm*</fp>
+        <fp>TerminalBlock*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Fan</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AMS1117-3.3">
+      <description>1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223</description>
+      <docs>http://www.advanced-monolithic.com/pdf/ds1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AMS1117-3.3</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">http://www.advanced-monolithic.com/pdf/ds1117.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Current" part="ACS758xCB-050B-PFF">
+      <description>±50A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 40mV/A, CB-5 PFF</description>
+      <docs>http://www.allegromicro.com/~/media/Files/Datasheets/ACS758-Datasheet.ashx?la=en</docs>
+      <footprints>
+        <fp>Allegro*CB*PFF*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ACS758xCB-050B-PFF</field>
+        <field name="Footprint">Sensor_Current:Allegro_CB_PFF</field>
+        <field name="Datasheet">http://www.allegromicro.com/~/media/Files/Datasheets/ACS758-Datasheet.ashx?la=en</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VIOUT" type="output"/>
+        <pin num="4" name="IP+" type="passive"/>
+        <pin num="5" name="IP-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC337">
+      <description>0.8A Ic, 45V Vce, NPN Transistor, TO-92</description>
+      <docs>https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC337</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="IRF540N">
+      <description>33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220</description>
+      <docs>http://www.irf.com/product-info/datasheets/data/irf540n.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRF540N</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Datasheet">http://www.irf.com/product-info/datasheets/data/irf540n.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Ben_modules">
+      <uri>C:\Users\benja\Documents\Ben_modules/symbols/Ben_modules.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Motor">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Motor.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Current">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Sensor_Current.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="3V3">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J3" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J4" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R38" pin="2" pintype="passive"/>
+      <node ref="R39" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="VO" pintype="power_out"/>
+      <node ref="U3" pin="VCC" pinfunction="VCC" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J13" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="26" pinfunction="Pin_26" pintype="passive"/>
+      <node ref="J3" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J4" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J4" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="M24" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="M25" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q7" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q8" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="RM23" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="GND" pinfunction="GND" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="HD_CURRENT">
+      <node ref="J3" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="M23" pin="4" pinfunction="-" pintype="passive"/>
+      <node ref="RM23" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="HD_POT">
+      <node ref="J4" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="M23" pin="1" pinfunction="POT" pintype="passive"/>
+    </net>
+    <net code="5" name="HD_PWM">
+      <node ref="J2" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="M23" pin="2" pinfunction="PWM" pintype="passive"/>
+    </net>
+    <net code="6" name="I_SENS">
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J2" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VIOUT" pintype="output"/>
+    </net>
+    <net code="7" name="L_ANK_CURRENT">
+      <node ref="J3" pin="33" pinfunction="Pin_33" pintype="passive"/>
+      <node ref="M10" pin="4" pinfunction="-" pintype="passive"/>
+      <node ref="RM10" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="L_ANK_POT">
+      <node ref="J4" pin="33" pinfunction="Pin_33" pintype="passive"/>
+      <node ref="M10" pin="1" pinfunction="POT" pintype="passive"/>
+    </net>
+    <net code="9" name="L_ANK_PWM">
+      <node ref="J2" pin="38" pinfunction="Pin_38" pintype="passive"/>
+      <node ref="M10" pin="2" pinfunction="PWM" pintype="passive"/>
+    </net>
+    <net code="10" name="L_ARM_CONTROL">
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="L_ARM_GND">
+      <node ref="J3" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="RM1" pin="2" pintype="passive"/>
+      <node ref="RM2" pin="2" pintype="passive"/>
+      <node ref="RM3" pin="2" pintype="passive"/>
+      <node ref="RM4" pin="2" pintype="passive"/>
+      <node ref="RM5" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="L_ELBR_CURRENT">
+      <node ref="J3" pin="22" pinfunction="Pin_22" pintype="passive"/>
+      <node ref="M3" pin="4" pinfunction="-" pintype="passive"/>
+      <node ref="RM3" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="L_ELBR_POT">
+      <node ref="J4" pin="22" pinfunction="Pin_22" pintype="passive"/>
+      <node ref="M3" pin="1" pinfunction="POT" pintype="passive"/>
+    </net>
+    <net code="14" name="L_ELBR_PWM">
+      <node ref="J2" pin="31" pinfunction="Pin_31" pintype="passive"/>
+      <node ref="M3" pin="2" pinfunction="PWM" pintype="passive"/>
+    </net>
+    <net code="15" name="L_ELB_CURRENT">
+      <node ref="J3" pin="24" pinfunction="Pin_24" pintype="passive"/>
+      <node ref="M2" pin="4" pinfunction="-" pintype="passive"/>
+      <node ref="RM2" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="L_ELB_POT">
+      <node ref="J4" pin="24" pinfunction="Pin_24" pintype="passive"/>
+      <node ref="M2" pin="1" pinfunction="POT" pintype="passive"/>
+    </net>
+    <net code="17" name="L_ELB_PWM">
+      <node ref="J2" pin="29" pinfunction="Pin_29" pintype="passive"/>
+      <node ref="M2" pin="2" pinfunction="PWM" pintype="passive"/>
+    </net>
+    <net code="18" name="L_FT_ANGLE">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="19" name="L_FT_CURRENT">
+      <node ref="J3" pin="31" pinfunction="Pin_31" pintype="passive"/>
+      <node ref="M11" pin="4" pinfunction="-" pintype="passive"/>
+      <node ref="RM9" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="L_FT_POT">
+      <node ref="J4" pin="31" pinfunction="Pin_31" pintype="passive"/>
+      <node ref="M11" pin="1" pinfunction="POT" pintype="passive"/>
+    </net>
+    <net code="21" name="L_FT_PWM">
+      <node ref="J2" pin="37" pinfunction="Pin_37" pintype="passive"/>
+      <node ref="M11" pin="2" pinfunction="PWM" pintype="passive"/>
+    </net>
+    <net code="22" name="L_HND_CURRENT">
+      <node ref="J3" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="M1" pin="4" pinfunction="-" pintype="passive"/>
+      <node ref="RM1" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="L_HND_POT">
+      <node ref="J4" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="M1" pin="1" pinfunction="POT" pintype="passive"/>
+    </net>
+    <net code="24" name="L_HND_PWM">
+      <node ref="J2" pin="27" pinfunction="Pin_27" pintype="passive"/>
+      <node ref="M1" pin="2" pinfunction="PWM" pintype="passive"/>
+    </net>
+    <net code="25" name="L_HP_CURRENT">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="M6" pin="4" pinfunction="-" pintype="passive"/>
+      <node ref="RM6" pin="1" pintype="passive"/>
+    </net>
+    <net code="26" name="L_HP_POT">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="M6" pin="1" pinfunction="POT" pintype="passive"/>
+    </net>
+    <net code="27" name="L_HP_PWM">
+      <node ref="J2" pin="30" pinfunction="Pin_30" pintype="passive"/>
+      <node ref="M6" pin="2" pinfunction="PWM" pintype="passive"/>
+    </net>
+    <net code="28" name="L_KNR_CURRENT">
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="M8" pin="4" pinfunction="-" pintype="passive"/>
+      <node ref="RM8" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="L_KNR_POT">
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="M8" pin="1" pinfunction="POT" pintype="passive"/>
+    </net>
+    <net code="30" name="L_KNR_PWM">
+      <node ref="J2" pin="34" pinfunction="Pin_34" pintype="passive"/>
+      <node ref="M8" pin="2" pinfunction="PWM" pintype="passive"/>
+    </net>
+    <net code="31" name="L_KN_CURRENT">
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="M9" pin="4" pinfunction="-" pintype="passive"/>
+      <node ref="RM11" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="L_KN_POT">
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="M9" pin="1" pinfunction="POT" pintype="passive"/>
+    </net>
+    <net code="33" name="L_KN_PWM">
+      <node ref="J2" pin="36" pinfunction="Pin_36" pintype="passive"/>
+      <node ref="M9" pin="2" pinfunction="PWM" pintype="passive"/>
+    </net>
+    <net code="34" name="L_LEG_CONTROL">
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="35" name="L_LEG_GND">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q6" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="RM10" pin="2" pintype="passive"/>
+      <node ref="RM11" pin="2" pintype="passive"/>
+      <node ref="RM6" pin="2" pintype="passive"/>
+      <node ref="RM7" pin="2" pintype="passive"/>
+      <node ref="RM8" pin="2" pintype="passive"/>
+      <node ref="RM9" pin="2" pintype="passive"/>
+    </net>
+    <net code="36" name="L_SH_CURRENT">
+      <node ref="J3" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="M4" pin="4" pinfunction="-" pintype="passive"/>
+      <node ref="RM4" pin="1" pintype="passive"/>
+    </net>
+    <net code="37" name="L_SH_POT">
+      <node ref="J4" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="M4" pin="1" pinfunction="POT" pintype="passive"/>
+    </net>
+    <net code="38" name="L_SH_PWM">
+      <node ref="J2" pin="33" pinfunction="Pin_33" pintype="passive"/>
+      <node ref="M4" pin="2" pinfunction="PWM" pintype="passive"/>
+    </net>
+    <net code="39" name="L_TG_CURRENT">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="M7" pin="4" pinfunction="-" pintype="passive"/>
+      <node ref="RM7" pin="1" pintype="passive"/>
+    </net>
+    <net code="40" name="L_TG_POT">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="M7" pin="1" pinfunction="POT" pintype="passive"/>
+    </net>
+    <net code="41" name="L_TG_PWM">
+      <node ref="J2" pin="32" pinfunction="Pin_32" pintype="passive"/>
+      <node ref="M7" pin="2" pinfunction="PWM" pintype="passive"/>
+    </net>
+    <net code="42" name="L_TX_CURRENT">
+      <node ref="J3" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="M5" pin="4" pinfunction="-" pintype="passive"/>
+      <node ref="RM5" pin="1" pintype="passive"/>
+    </net>
+    <net code="43" name="L_TX_POT">
+      <node ref="J4" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="M5" pin="1" pinfunction="POT" pintype="passive"/>
+    </net>
+    <net code="44" name="L_TX_PWM">
+      <node ref="J2" pin="35" pinfunction="Pin_35" pintype="passive"/>
+      <node ref="M5" pin="2" pinfunction="PWM" pintype="passive"/>
+    </net>
+    <net code="45" name="MAIN_RX">
+      <node ref="J13" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J2" pin="20" pinfunction="Pin_20" pintype="passive"/>
+    </net>
+    <net code="46" name="MAIN_TX">
+      <node ref="J13" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J2" pin="18" pinfunction="Pin_18" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(J1-+)">
+      <node ref="J1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="IP-" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(Q1-B)">
+      <node ref="Q1" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(Q1-C)">
+      <node ref="Q1" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(Q3-B)">
+      <node ref="Q3" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(Q3-C)">
+      <node ref="Q3" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(Q5-B)">
+      <node ref="Q5" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(Q5-C)">
+      <node ref="Q5" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="Q6" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(Q7-B)">
+      <node ref="Q7" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(Q7-C)">
+      <node ref="Q7" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="Q8" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+    </net>
+    <net code="56" name="R_ANK_CURRENT">
+      <node ref="J3" pin="27" pinfunction="Pin_27" pintype="passive"/>
+      <node ref="M13" pin="4" pinfunction="-" pintype="passive"/>
+      <node ref="RM13" pin="1" pintype="passive"/>
+    </net>
+    <net code="57" name="R_ANK_POT">
+      <node ref="J4" pin="27" pinfunction="Pin_27" pintype="passive"/>
+      <node ref="M13" pin="1" pinfunction="POT" pintype="passive"/>
+    </net>
+    <net code="58" name="R_ANK_PWM">
+      <node ref="J2" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="M13" pin="2" pinfunction="PWM" pintype="passive"/>
+    </net>
+    <net code="59" name="R_ARM_CONTROL">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="60" name="R_ARM_GND">
+      <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="RM18" pin="2" pintype="passive"/>
+      <node ref="RM19" pin="2" pintype="passive"/>
+      <node ref="RM20" pin="2" pintype="passive"/>
+      <node ref="RM21" pin="2" pintype="passive"/>
+      <node ref="RM22" pin="2" pintype="passive"/>
+    </net>
+    <net code="61" name="R_ELBR_CURRENT">
+      <node ref="J3" pin="28" pinfunction="Pin_28" pintype="passive"/>
+      <node ref="M20" pin="4" pinfunction="-" pintype="passive"/>
+      <node ref="RM20" pin="1" pintype="passive"/>
+    </net>
+    <net code="62" name="R_ELBR_POT">
+      <node ref="J4" pin="28" pinfunction="Pin_28" pintype="passive"/>
+      <node ref="M20" pin="1" pinfunction="POT" pintype="passive"/>
+    </net>
+    <net code="63" name="R_ELBR_PWM">
+      <node ref="J2" pin="21" pinfunction="Pin_21" pintype="passive"/>
+      <node ref="M20" pin="2" pinfunction="PWM" pintype="passive"/>
+    </net>
+    <net code="64" name="R_ELB_CURRENT">
+      <node ref="J3" pin="30" pinfunction="Pin_30" pintype="passive"/>
+      <node ref="M21" pin="4" pinfunction="-" pintype="passive"/>
+      <node ref="RM21" pin="1" pintype="passive"/>
+    </net>
+    <net code="65" name="R_ELB_POT">
+      <node ref="J4" pin="30" pinfunction="Pin_30" pintype="passive"/>
+      <node ref="M21" pin="1" pinfunction="POT" pintype="passive"/>
+    </net>
+    <net code="66" name="R_ELB_PWM">
+      <node ref="J2" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="M21" pin="2" pinfunction="PWM" pintype="passive"/>
+    </net>
+    <net code="67" name="R_FT_ANGLE">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="68" name="R_FT_CURRENT">
+      <node ref="J3" pin="29" pinfunction="Pin_29" pintype="passive"/>
+      <node ref="M12" pin="4" pinfunction="-" pintype="passive"/>
+      <node ref="RM14" pin="1" pintype="passive"/>
+    </net>
+    <net code="69" name="R_FT_POT">
+      <node ref="J4" pin="29" pinfunction="Pin_29" pintype="passive"/>
+      <node ref="M12" pin="1" pinfunction="POT" pintype="passive"/>
+    </net>
+    <net code="70" name="R_FT_PWM">
+      <node ref="J2" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="M12" pin="2" pinfunction="PWM" pintype="passive"/>
+    </net>
+    <net code="71" name="R_HND_CURRENT">
+      <node ref="J3" pin="32" pinfunction="Pin_32" pintype="passive"/>
+      <node ref="M22" pin="4" pinfunction="-" pintype="passive"/>
+      <node ref="RM22" pin="1" pintype="passive"/>
+    </net>
+    <net code="72" name="R_HND_POT">
+      <node ref="J4" pin="32" pinfunction="Pin_32" pintype="passive"/>
+      <node ref="M22" pin="1" pinfunction="POT" pintype="passive"/>
+    </net>
+    <net code="73" name="R_HND_PWM">
+      <node ref="J2" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="M22" pin="2" pinfunction="PWM" pintype="passive"/>
+    </net>
+    <net code="74" name="R_HP_CURRENT">
+      <node ref="J3" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="M17" pin="4" pinfunction="-" pintype="passive"/>
+      <node ref="RM17" pin="1" pintype="passive"/>
+    </net>
+    <net code="75" name="R_HP_POT">
+      <node ref="J4" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="M17" pin="1" pinfunction="POT" pintype="passive"/>
+    </net>
+    <net code="76" name="R_HP_PWM">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="M17" pin="2" pinfunction="PWM" pintype="passive"/>
+    </net>
+    <net code="77" name="R_KNR_CURRENT">
+      <node ref="J3" pin="23" pinfunction="Pin_23" pintype="passive"/>
+      <node ref="M15" pin="4" pinfunction="-" pintype="passive"/>
+      <node ref="RM15" pin="1" pintype="passive"/>
+    </net>
+    <net code="78" name="R_KNR_POT">
+      <node ref="J4" pin="23" pinfunction="Pin_23" pintype="passive"/>
+      <node ref="M15" pin="1" pinfunction="POT" pintype="passive"/>
+    </net>
+    <net code="79" name="R_KNR_PWM">
+      <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="M15" pin="2" pinfunction="PWM" pintype="passive"/>
+    </net>
+    <net code="80" name="R_KN_CURRENT">
+      <node ref="J3" pin="25" pinfunction="Pin_25" pintype="passive"/>
+      <node ref="M14" pin="4" pinfunction="-" pintype="passive"/>
+      <node ref="RM12" pin="1" pintype="passive"/>
+    </net>
+    <net code="81" name="R_KN_POT">
+      <node ref="J4" pin="25" pinfunction="Pin_25" pintype="passive"/>
+      <node ref="M14" pin="1" pinfunction="POT" pintype="passive"/>
+    </net>
+    <net code="82" name="R_KN_PWM">
+      <node ref="J2" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="M14" pin="2" pinfunction="PWM" pintype="passive"/>
+    </net>
+    <net code="83" name="R_LEG_CONTROL">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+    </net>
+    <net code="84" name="R_LEG_GND">
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="Q8" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="RM12" pin="2" pintype="passive"/>
+      <node ref="RM13" pin="2" pintype="passive"/>
+      <node ref="RM14" pin="2" pintype="passive"/>
+      <node ref="RM15" pin="2" pintype="passive"/>
+      <node ref="RM16" pin="2" pintype="passive"/>
+      <node ref="RM17" pin="2" pintype="passive"/>
+    </net>
+    <net code="85" name="R_SH_CURRENT">
+      <node ref="J3" pin="34" pinfunction="Pin_34" pintype="passive"/>
+      <node ref="M19" pin="4" pinfunction="-" pintype="passive"/>
+      <node ref="RM19" pin="1" pintype="passive"/>
+    </net>
+    <net code="86" name="R_SH_POT">
+      <node ref="J4" pin="34" pinfunction="Pin_34" pintype="passive"/>
+      <node ref="M19" pin="1" pinfunction="POT" pintype="passive"/>
+    </net>
+    <net code="87" name="R_SH_PWM">
+      <node ref="J2" pin="23" pinfunction="Pin_23" pintype="passive"/>
+      <node ref="M19" pin="2" pinfunction="PWM" pintype="passive"/>
+    </net>
+    <net code="88" name="R_TG_CURRENT">
+      <node ref="J3" pin="21" pinfunction="Pin_21" pintype="passive"/>
+      <node ref="M16" pin="4" pinfunction="-" pintype="passive"/>
+      <node ref="RM16" pin="1" pintype="passive"/>
+    </net>
+    <net code="89" name="R_TG_POT">
+      <node ref="J4" pin="21" pinfunction="Pin_21" pintype="passive"/>
+      <node ref="M16" pin="1" pinfunction="POT" pintype="passive"/>
+    </net>
+    <net code="90" name="R_TG_PWM">
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="M16" pin="2" pinfunction="PWM" pintype="passive"/>
+    </net>
+    <net code="91" name="R_TX_CURRENT">
+      <node ref="J3" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="M18" pin="4" pinfunction="-" pintype="passive"/>
+      <node ref="RM18" pin="1" pintype="passive"/>
+    </net>
+    <net code="92" name="R_TX_POT">
+      <node ref="J4" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="M18" pin="1" pinfunction="POT" pintype="passive"/>
+    </net>
+    <net code="93" name="R_TX_PWM">
+      <node ref="J2" pin="25" pinfunction="Pin_25" pintype="passive"/>
+      <node ref="M18" pin="2" pinfunction="PWM" pintype="passive"/>
+    </net>
+    <net code="94" name="SCL">
+      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J13" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="24" pinfunction="Pin_24" pintype="passive"/>
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
+      <node ref="U3" pin="SCL" pinfunction="SCL" pintype="bidirectional"/>
+    </net>
+    <net code="95" name="SDA">
+      <node ref="J10" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J13" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J2" pin="22" pinfunction="Pin_22" pintype="passive"/>
+      <node ref="J3" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J4" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R39" pin="1" pintype="passive"/>
+      <node ref="U3" pin="SDA" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="96" name="SERVO_VCC">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="28" pinfunction="Pin_28" pintype="passive"/>
+      <node ref="J3" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J3" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="J4" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J4" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="M1" pin="3" pinfunction="+" pintype="passive"/>
+      <node ref="M10" pin="3" pinfunction="+" pintype="passive"/>
+      <node ref="M11" pin="3" pinfunction="+" pintype="passive"/>
+      <node ref="M12" pin="3" pinfunction="+" pintype="passive"/>
+      <node ref="M13" pin="3" pinfunction="+" pintype="passive"/>
+      <node ref="M14" pin="3" pinfunction="+" pintype="passive"/>
+      <node ref="M15" pin="3" pinfunction="+" pintype="passive"/>
+      <node ref="M16" pin="3" pinfunction="+" pintype="passive"/>
+      <node ref="M17" pin="3" pinfunction="+" pintype="passive"/>
+      <node ref="M18" pin="3" pinfunction="+" pintype="passive"/>
+      <node ref="M19" pin="3" pinfunction="+" pintype="passive"/>
+      <node ref="M2" pin="3" pinfunction="+" pintype="passive"/>
+      <node ref="M20" pin="3" pinfunction="+" pintype="passive"/>
+      <node ref="M21" pin="3" pinfunction="+" pintype="passive"/>
+      <node ref="M22" pin="3" pinfunction="+" pintype="passive"/>
+      <node ref="M23" pin="3" pinfunction="+" pintype="passive"/>
+      <node ref="M24" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="M25" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="M3" pin="3" pinfunction="+" pintype="passive"/>
+      <node ref="M4" pin="3" pinfunction="+" pintype="passive"/>
+      <node ref="M5" pin="3" pinfunction="+" pintype="passive"/>
+      <node ref="M6" pin="3" pinfunction="+" pintype="passive"/>
+      <node ref="M7" pin="3" pinfunction="+" pintype="passive"/>
+      <node ref="M8" pin="3" pinfunction="+" pintype="passive"/>
+      <node ref="M9" pin="3" pinfunction="+" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="IP+" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="97" name="SHUTOFF">
+      <node ref="J2" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J3" pin="26" pinfunction="Pin_26" pintype="passive"/>
+      <node ref="J4" pin="26" pinfunction="Pin_26" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="98" name="unconnected-(U3-PadADO)">
+      <node ref="U3" pin="ADO" pinfunction="ADO" pintype="bidirectional"/>
+    </net>
+    <net code="99" name="unconnected-(U3-PadINT)">
+      <node ref="U3" pin="INT" pinfunction="INT" pintype="bidirectional"/>
+    </net>
+    <net code="100" name="unconnected-(U3-PadXCL)">
+      <node ref="U3" pin="XCL" pinfunction="XCL" pintype="bidirectional"/>
+    </net>
+    <net code="101" name="unconnected-(U3-PadXDA)">
+      <node ref="U3" pin="XDA" pinfunction="XDA" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>
