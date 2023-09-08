@@ -2,6 +2,7 @@
     "layout": {
         "hspace": "5mm",
         "vspace": "5mm",
+        "rows": "2",
         "cols": "3",
         "vbonecut": "False",
         "hbonecut": "False"
