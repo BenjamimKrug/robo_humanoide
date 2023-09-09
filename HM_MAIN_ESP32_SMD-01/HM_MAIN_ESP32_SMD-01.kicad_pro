@@ -203,6 +203,10 @@
           "drill": 0.9
         },
         {
+          "diameter": 1.8,
+          "drill": 0.9
+        },
+        {
           "diameter": 3.4,
           "drill": 3.2
         }
@@ -433,7 +437,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "HM_ESP32-01.kicad_pro",
+    "filename": "HM_MAIN_ESP32_SMD-01.kicad_pro",
     "version": 1
   },
   "net_settings": {
