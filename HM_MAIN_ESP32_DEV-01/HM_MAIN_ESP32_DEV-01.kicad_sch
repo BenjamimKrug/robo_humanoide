@@ -484,43 +484,29 @@
         )
       )
     )
-    (symbol "Diode:1N4007" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
+    (symbol "Device:D_Schottky" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "1N4007" (at 0 -2.54 0)
+      (property "Value" "D_Schottky" (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" (at 0 -4.445 0)
+      (property "Footprint" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf" (at 0 0 0)
+      (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Sim.Device" "D" (at 0 0 0)
+      (property "ki_keywords" "diode Schottky" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Sim.Pins" "1=K 2=A" (at 0 0 0)
+      (property "ki_description" "Schottky diode" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "diode" (at 0 0 0)
+      (property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "1000V 1A General Purpose Rectifier Diode, DO-41" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "D*DO?41*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "1N4007_0_1"
-        (polyline
-          (pts
-            (xy -1.27 1.27)
-            (xy -1.27 -1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
+      (symbol "D_Schottky_0_1"
         (polyline
           (pts
             (xy 1.27 0)
@@ -539,8 +525,20 @@
           (stroke (width 0.254) (type default))
           (fill (type none))
         )
+        (polyline
+          (pts
+            (xy -1.905 0.635)
+            (xy -1.905 1.27)
+            (xy -1.27 1.27)
+            (xy -1.27 -1.27)
+            (xy -0.635 -1.27)
+            (xy -0.635 -0.635)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
       )
-      (symbol "1N4007_1_1"
+      (symbol "D_Schottky_1_1"
         (pin passive line (at -3.81 0 0) (length 2.54)
           (name "K" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -1054,41 +1052,9 @@
     )
     (pin "1" (uuid a2939045-9ef6-4d0e-9ef3-961ca889fafd))
     (instances
-      (project "HM_MAIN_ESP32-01"
+      (project "HM_MAIN_ESP32_DEV-01"
         (path "/a5d87afa-cb08-457a-8d0e-77c16130c40c"
           (reference "#PWR04") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Diode:1N4007") (at 41.91 116.84 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 3c6daa0b-fc23-4d01-880d-bc91d751b69d)
-    (property "Reference" "D1" (at 41.91 121.92 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1N4007" (at 41.91 119.38 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" (at 41.91 112.395 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf" (at 41.91 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Device" "D" (at 41.91 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Pins" "1=K 2=A" (at 41.91 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 97287e44-711e-4bfd-b92d-7fc1529d9b33))
-    (pin "2" (uuid 6d936f73-ca75-449f-ab68-755dce651d4e))
-    (instances
-      (project "HM_MAIN_ESP32-01"
-        (path "/a5d87afa-cb08-457a-8d0e-77c16130c40c"
-          (reference "D1") (unit 1)
         )
       )
     )
@@ -1111,7 +1077,7 @@
     )
     (pin "1" (uuid 512d5628-074f-4355-abae-ab83edf159b7))
     (instances
-      (project "HM_MAIN_ESP32-01"
+      (project "HM_MAIN_ESP32_DEV-01"
         (path "/a5d87afa-cb08-457a-8d0e-77c16130c40c"
           (reference "#PWR0109") (unit 1)
         )
@@ -1165,7 +1131,7 @@
     (pin "GND@2" (uuid 8ba8bc1a-16b0-43a5-bb54-9f88fc25ca05))
     (pin "VIN" (uuid e7a8624e-94d3-4865-9792-955c65163f6b))
     (instances
-      (project "HM_MAIN_ESP32-01"
+      (project "HM_MAIN_ESP32_DEV-01"
         (path "/a5d87afa-cb08-457a-8d0e-77c16130c40c"
           (reference "M1") (unit 1)
         )
@@ -1190,7 +1156,7 @@
     )
     (pin "1" (uuid fe77eeb7-be67-4407-b5ef-8e462ed05cb6))
     (instances
-      (project "HM_MAIN_ESP32-01"
+      (project "HM_MAIN_ESP32_DEV-01"
         (path "/a5d87afa-cb08-457a-8d0e-77c16130c40c"
           (reference "#PWR01") (unit 1)
         )
@@ -1255,9 +1221,35 @@
     (pin "8" (uuid e52550a7-e6df-4b43-aa47-e5bc99c4e57a))
     (pin "9" (uuid 3eeb46b7-2956-49f0-915d-37f3071b9e05))
     (instances
-      (project "HM_MAIN_ESP32-01"
+      (project "HM_MAIN_ESP32_DEV-01"
         (path "/a5d87afa-cb08-457a-8d0e-77c16130c40c"
           (reference "J2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:D_Schottky") (at 41.91 116.84 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8ec9f375-6592-4e7e-9ac3-1ff7ac44b3f5)
+    (property "Reference" "D1" (at 41.91 121.92 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1N5819" (at 41.91 119.38 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Diode_THT:D_A-405_P10.16mm_Horizontal" (at 41.91 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 41.91 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 00a6e002-0751-43c4-9584-f3dd468cf01f))
+    (pin "2" (uuid 912610ec-1ce4-4768-825a-b4dbd9055e5c))
+    (instances
+      (project "HM_MAIN_ESP32_DEV-01"
+        (path "/a5d87afa-cb08-457a-8d0e-77c16130c40c"
+          (reference "D1") (unit 1)
         )
       )
     )

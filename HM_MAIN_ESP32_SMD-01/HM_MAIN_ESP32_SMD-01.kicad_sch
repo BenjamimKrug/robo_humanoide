@@ -1566,7 +1566,7 @@
     (property "Reference" "D1" (at 50.8 88.5825 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "D_Schottky" (at 50.8 91.1225 90)
+    (property "Value" "1N5819" (at 50.8 91.1225 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Diode_THT:D_A-405_P10.16mm_Horizontal" (at 48.26 88.9 0)

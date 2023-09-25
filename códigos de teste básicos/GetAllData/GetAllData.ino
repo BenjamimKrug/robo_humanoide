@@ -4,8 +4,8 @@
 
 MPU6050 mpu6050(Wire);
 
-#define MPU_SDA 27
-#define MPU_SCL 26
+#define MPU_SDA 33
+#define MPU_SCL 25
 long timer = 0;
 
 void setup() {
