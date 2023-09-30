@@ -38,8 +38,9 @@ void instanciarServos() {
 
 void setup() {
   Serial.begin(115200);
+  Serial.println("iniciou");
   pinMode(CONTROLE_MOSFET, OUTPUT);
-  digitalWrite(CONTROLE_MOSFET, LOW);
+  digitalWrite(CONTROLE_MOSFET, HIGH);
   // Allow allocation of all timers
   ESP32PWM::allocateTimer(0);
   ESP32PWM::allocateTimer(1);
@@ -49,12 +50,16 @@ void setup() {
 }
 
 void loop() {
-  if (Serial.available()) {
+  while (Serial.available()) {
     String recebido = Serial.readStringUntil('\n');
-    if (recebido[0] == 'l')
+    if (recebido[0] == 'l'){
       digitalWrite(CONTROLE_MOSFET, HIGH);
-    if (recebido[0] == 'd')
+      Serial.println("ligou");
+  }
+    if (recebido[0] == 'd'){
       digitalWrite(CONTROLE_MOSFET, LOW);
+      Serial.println("desligou");
+    }
   }
 
   pos += direction;
