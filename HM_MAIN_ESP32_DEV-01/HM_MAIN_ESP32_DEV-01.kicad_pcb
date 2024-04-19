@@ -84,7 +84,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "HM_CENTRAL-02 Gerber/")
+      (outputdirectory "C:/benjamim/robo_humanoide/HM_MAIN_ESP32_DEV-01/HM_MAIN_ESP32_DEV-01 Gerber/")
     )
   )
 
