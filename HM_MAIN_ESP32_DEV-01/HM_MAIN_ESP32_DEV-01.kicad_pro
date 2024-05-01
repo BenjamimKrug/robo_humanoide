@@ -433,7 +433,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "HM_ESP32-01.kicad_pro",
+    "filename": "HM_MAIN_ESP32_DEV-01.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -469,7 +469,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "HM_MAIN_ESP32_DEV-01.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
