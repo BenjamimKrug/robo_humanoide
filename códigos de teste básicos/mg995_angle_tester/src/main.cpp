@@ -5,10 +5,10 @@
 #define CONTROLE_MOSFET 32
 #define R_HP_IO 18
 
-#define MG995_MIN 1638
-#define MG995_MAX 8192
+#define MG995_MIN 1000
+#define MG995_MAX 10000
 
-uint16_t pwm_val = 4915;
+uint16_t pwm_val = 1950;
 
 ledc_timer_config_t ledc_timer = {
     .speed_mode = LEDC_HIGH_SPEED_MODE,    // timer mode
