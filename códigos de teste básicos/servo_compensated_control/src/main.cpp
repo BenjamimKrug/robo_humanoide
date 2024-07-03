@@ -26,12 +26,13 @@ ledc_channel_config_t servo_pwm_channel = {
     .duty = 4500,
     .hpoint = 0,
 };
+
 servo_compensated servo;
 pwm_val_t duty_offset = 0;
 
 pwm_val_t calc_duty(servo_compensated* servo_) {
   float angle = servo_->get_cur_angle();
-  pwm_val_t duty = 37.7 * angle + 2450 + duty_offset;
+  pwm_val_t duty = servo_->comp_array[static_cast<uint16_t>(servo_->get_cur_angle())];
   Serial.printf("%i, %f\n", duty, angle);
   return duty;
 }
@@ -40,7 +41,7 @@ void setup() {
   Serial.begin(112500);
   pinMode(CONTROLE_MOSFET, OUTPUT);
   digitalWrite(CONTROLE_MOSFET, LOW);
-  servo.begin(&ledc_timer, &servo_pwm_channel, calc_duty);
+  servo.begin(&ledc_timer, &servo_pwm_channel, servo_comp_array, calc_duty);
   servo.set_target_angle(angle);
   servo.handle();
 }

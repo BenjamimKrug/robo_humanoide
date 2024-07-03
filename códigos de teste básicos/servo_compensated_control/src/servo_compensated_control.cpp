@@ -3,6 +3,7 @@
 #if defined(ARDUINO_ARCH_ESP32)
 uint8_t servo_compensated::begin(ledc_timer_config_t* _timer_config,
                                  ledc_channel_config_t* _pwm_channel,
+                                 pwm_val_t* _comp_array,
                                  calculate_duty_t calc_duty) {
   timer_config = _timer_config;
   if (timer_config == NULL) return EINVAL;
@@ -11,6 +12,9 @@ uint8_t servo_compensated::begin(ledc_timer_config_t* _timer_config,
   pwm_channel = _pwm_channel;
   if (pwm_channel == NULL) return EINVAL;
   ledc_channel_config(pwm_channel);
+
+  if (_comp_array == NULL) return;
+  comp_array = _comp_array;
 
   calculate_duty = calc_duty;
   update_duty();

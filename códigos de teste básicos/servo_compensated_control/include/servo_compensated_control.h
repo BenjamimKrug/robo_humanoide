@@ -24,6 +24,7 @@ class servo_compensated {
 #if defined(ARDUINO_ARCH_ESP32)
   uint8_t begin(ledc_timer_config_t* _timer_config,
                 ledc_channel_config_t* _pwm_channel,
+                pwm_val_t* _comp_array,
                 calculate_duty_t calc_duty);
 #endif
   float set_target_angle(float new_val);
@@ -35,6 +36,8 @@ class servo_compensated {
   void update_duty();
   void handle();
 
+  pwm_val_t* comp_array;
+  
  private:
   calculate_duty_t calculate_duty;
 
