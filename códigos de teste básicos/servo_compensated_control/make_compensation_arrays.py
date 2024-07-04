@@ -20,7 +20,7 @@ for i in range(1, len(results[0])):
 
 last_pos = len(results) - 1
 
-for i in range(1, last_pos - 1):
+for i in range(1, last_pos):
     for j in range(1, len(results[i])):
         pos = j - 1
         file_outputs[pos] += "\t"

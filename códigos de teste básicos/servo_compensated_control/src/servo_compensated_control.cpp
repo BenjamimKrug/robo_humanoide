@@ -13,7 +13,7 @@ uint8_t servo_compensated::begin(ledc_timer_config_t* _timer_config,
   if (pwm_channel == NULL) return EINVAL;
   ledc_channel_config(pwm_channel);
 
-  if (_comp_array == NULL) return;
+  if (_comp_array == NULL) return EINVAL;
   comp_array = _comp_array;
 
   calculate_duty = calc_duty;

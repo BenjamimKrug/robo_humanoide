@@ -37,14 +37,14 @@ class servo_compensated {
   void handle();
 
   pwm_val_t* comp_array;
+  float min_angle = 0.0f;
+  float max_angle = 180.0f;
   
  private:
   calculate_duty_t calculate_duty;
 
   float cur_angle = 90.0f;
   float target_angle = 90.0f;
-  float min_angle = 0.0f;
-  float max_angle = 180.0f;
   float max_step_per_ms =
       180.0f;  // allows instant jump from one side to another
   uint32_t last_handle_time = 0;
