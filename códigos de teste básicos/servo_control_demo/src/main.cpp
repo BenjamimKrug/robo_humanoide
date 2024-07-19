@@ -48,6 +48,15 @@ ledc_channel_config_t servo_array_pwm_channel = {
     .hpoint = 0,
 };
 
+ledc_channel_config_t servo_linear_pwm_channel = {
+    .gpio_num = R_ANK_IO,
+    .speed_mode = LEDC_LOW_SPEED_MODE,
+    .channel = LEDC_CHANNEL_0,
+    .timer_sel = LEDC_TIMER_0,
+    .duty = 4500,
+    .hpoint = 0,
+}; 
+
 ledc_channel_config_t servo_polinomial_pwm_channel = {
     .gpio_num = R_HP_IO,
     .speed_mode = LEDC_LOW_SPEED_MODE,
@@ -59,6 +68,7 @@ ledc_channel_config_t servo_polinomial_pwm_channel = {
 
 Servo servo_lib;
 servo_compensated servo_polinomial;
+servo_compensated servo_linear;
 servo_compensated servo_array;
 
 pwm_val_t calc_duty_polinomial(servo_compensated* servo_) {
@@ -66,6 +76,15 @@ pwm_val_t calc_duty_polinomial(servo_compensated* servo_) {
   uint32_t cyc = ESP.getCycleCount();
   pwm_val_t duty = -7.74e-4 * angle * angle + 27.1 * angle + 2360;
   Serial.printf("========\npolinomial:\n%i, %.1fº\nlevou %u ciclos\n", duty, angle,
+                ESP.getCycleCount() - cyc);
+  return duty;
+}
+
+pwm_val_t calc_duty_linear(servo_compensated* servo_) {
+  float angle = servo_->get_cur_angle();
+  uint32_t cyc = ESP.getCycleCount();
+  pwm_val_t duty = 26.9 * angle + 2364;
+  Serial.printf("========\nlinear:\n%i, %.1fº\nlevou %u ciclos\n", duty, angle,
                 ESP.getCycleCount() - cyc);
   return duty;
 }
@@ -88,6 +107,11 @@ void setup() {
                          M5_comp_array, calc_duty_polinomial);
   servo_polinomial.set_target_angle(angle);
   servo_polinomial.handle();
+
+  servo_linear.begin(&ledc_timer, &servo_linear_pwm_channel,
+                         M5_comp_array, calc_duty_linear);
+  servo_linear.set_target_angle(angle);
+  servo_linear.handle();
 
   servo_array.begin(&ledc_timer, &servo_array_pwm_channel, M5_comp_array,
                     calc_duty_array);
@@ -121,11 +145,13 @@ void loop() {
         recebido[i] = 0;
         angle = atof(&recebido[1]);
         servo_polinomial.set_target_angle(angle);
+        servo_linear.set_target_angle(angle);
         servo_array.set_target_angle(angle);
         servo_lib.write(angle);
         break;
     }
   }
   servo_polinomial.handle();
+  servo_linear.handle();
   servo_array.handle();
 }
