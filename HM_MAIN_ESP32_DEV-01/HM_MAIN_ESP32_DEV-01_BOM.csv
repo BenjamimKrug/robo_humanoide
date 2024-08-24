@@ -1,0 +1,4 @@
+"Id";"Designador";"Footprint";"Quantidade";"Designação";"Fornecedor e referência";
+1;"M1";"ESP32-DEVKITV1";1;"ESP32-DEVKITV1";;;
+2;"D1";"D_DO-41_SOD81_P10.16mm_Horizontal";1;"1N4007";;;
+3;"J2";"PinHeader_2x19_P2.54mm_Horizontal";1;"Conn_02x19_Odd_Even";;;
